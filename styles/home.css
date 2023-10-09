@@ -13,20 +13,27 @@
     justify-content: space-between;
     padding-left: 80px;
 }
+
+.conteudo-container .texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 520px;
+}
 .conteudo-container h2{
     width: 558px;
-    height: 520px;
     font-size: 4rem;
     font-weight: 400;
     font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .conteudo-container div{
     display: flex;
     justify-content: flex-start;
     width: 900px;
+}
+
+.texto-laranja {
+    color: var(--cor-primaria);
 }
 
 .destaque-container{
@@ -38,43 +45,3 @@
     padding-right: 80px;
 }
 
-.destaque {
-    position: relative;
-}
-
-.info{
-    bottom: 10px;
-    position: absolute;
-    height: 36px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--cor-sombra);
-    font-size: 0.8rem;
-    color: var(--cor-branco);
-    padding-left: 12px ;
-    padding-right: 12px;
-    border-radius: 0px 0px 12px 12px;
-    transition: 1s;
-    opacity: 0;
-}
-.destaque:hover .info{
-    opacity: 1 ;
-}
-
-.add{
-    position: absolute;
-    top:-12px;
-    right: -12px;
-    opacity: 0;
-    transition: 1s;
-}
-
-.destaque:hover .add{
-    opacity: 1;
-}
-
-.info-texto{
-    width: 140px;
-}
