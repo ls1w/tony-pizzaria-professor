@@ -57,13 +57,14 @@
         align-items: center;
         justify-content: flex-start;
         gap: 80px;
-        padding-bottom: 24px;
+        padding-bottom: 32px;
     }
     .conteudo-container div{
-        justify-content: center;
-        align-items: flex-end;
+        width: 100%;
+        justify-content: flex-end;
+        align-items: flex-start;
     }
-    .conteudo-container .imagem-principal-home{
+    .home .conteudo-container .imagem-principal-home{
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -72,7 +73,7 @@
 
     .conteudo-container .texto{
         justify-content: center;
-        align-self: flex-end;
+        align-self: flex-start;
         height: 300px;
     }
     .destaque-container{
