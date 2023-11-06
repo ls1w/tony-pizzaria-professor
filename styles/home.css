@@ -56,8 +56,8 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: flex-start;
-        gap: 80px;
-        padding-bottom: 32px;
+        gap: 32px;
+        padding-bottom: 48px;
     }
     .conteudo-container div{
         width: 100%;
