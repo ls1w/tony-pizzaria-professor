@@ -53,8 +53,27 @@
         background-position: right top;
     }
     .conteudo-container{
+        padding: 0;
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: center;
+    }
+    .conteudo-container div{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .conteudo-container .imagem-principal-home{
+        padding-top: 200px;
+        margin-top: 200px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+
+    .conteudo-container .texto{
+        justify-content: center;
+        align-self: flex-end;
+        height: 300px;
     }
     .destaque-container{
         display: none;
