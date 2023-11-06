@@ -49,3 +49,31 @@
     text-align: center;
     text-shadow: 2px 2px 8px var(--cor-sombra);
 }
+
+
+@media (max-width:768px){
+    .servicos-conteudo{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .servico{
+        width: 100%;
+        height: auto;
+        padding: 32px;
+        gap: 0 32px;
+        display: grid;
+        grid-template-areas:
+            "icon texto"
+            "titulo texto";
+        place-items: center;
+    }
+    .servico-icon{
+        grid-area: icon;
+    }
+    .servico-titulo{
+        grid-area: titulo;
+    }
+    .servico-texto{
+        grid-area: texto;
+    }
+}

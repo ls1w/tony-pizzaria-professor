@@ -53,17 +53,17 @@
         background-position: right top;
     }
     .conteudo-container{
-        padding: 0;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: flex-start;
+        gap: 80px;
+        padding-bottom: 24px;
     }
     .conteudo-container div{
         justify-content: center;
         align-items: flex-end;
     }
     .conteudo-container .imagem-principal-home{
-        padding-top: 200px;
-        margin-top: 200px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
