@@ -122,9 +122,9 @@ footer{
         grid-template-areas: 
             "logo sociais"
             "contatos sociais";
-            place-items: start;
-            padding-inline: 132px;
-            gap: 12px;
+        place-items: start;
+        padding-inline: 132px;
+        gap: 12px;
     }
 
     .contato-logo{
